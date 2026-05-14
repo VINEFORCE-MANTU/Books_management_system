@@ -1,37 +1,29 @@
-# Important
+# Books Management System
 
-Issues of this repository are tracked on https://github.com/aspnetboilerplate/aspnetboilerplate. Please create your issues on https://github.com/aspnetboilerplate/aspnetboilerplate/issues.
+A full-stack Books Management System built using:
 
-# Introduction
+- ASP.NET Core Web API
+- Angular
+- Entity Framework Core
+- SQL Server
+- ASP.NET Boilerplate (ABP)
 
-This is a template to create **ASP.NET Core MVC / Angular** based startup projects for [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents). It has 2 different versions:
+This project provides complete book management functionality including:
 
-1. [ASP.NET Core MVC & jQuery](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core) (server rendered multi-page application).
-2. [ASP.NET Core & Angular](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular) (single page application).
- 
-User Interface is based on [AdminLTE theme](https://github.com/ColorlibHQ/AdminLTE).
- 
-# Download
+- Add Books
+- Update Books
+- Delete Books
+- Retrieve Books
+- User Authentication
+- Dashboard Management
 
-Create & download your project from https://aspnetboilerplate.com/Templates
+---
 
-# Screenshots
+# Project Structure
 
-#### Sample Dashboard Page
-![](_screenshots/module-zero-core-template-ui-home.png)
-
-#### User Creation Modal
-![](_screenshots/module-zero-core-template-ui-user-create-modal.png)
-
-#### Login Page
-
-![](_screenshots/module-zero-core-template-ui-login.png)
-
-# Documentation
-
-* [ASP.NET Core MVC & jQuery version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core)
-* [ASP.NET Core & Angular  version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular)
-
-# License
-
-[MIT](LICENSE).
+```text
+Books_management_system/
+│
+├── angular/        -> Frontend Angular Application
+├── aspnet-core/    -> Backend ASP.NET Core API
+└── README.md
