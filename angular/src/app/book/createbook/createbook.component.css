@@ -1,0 +1,145 @@
+/* =========================================
+   CREATE BOOK MODAL STYLING
+   ========================================= */
+
+.form-horizontal {
+  padding: 5px;
+}
+
+/* ================= LABELS ================= */
+
+.col-form-label {
+  font-weight: 600;
+  color: #343a40;
+  padding-top: 10px;
+}
+
+/* ================= INPUTS ================= */
+
+.form-control {
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+/* Focus Effect */
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.2);
+}
+
+/* ================= REQUIRED FIELD ================= */
+
+.required label::after {
+  content: " *";
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* ================= MODAL BODY ================= */
+
+.modal-body {
+  padding: 1.5rem;
+  background-color: #fafafa;
+}
+
+/* ================= FORM GROUP ================= */
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+/* ================= VALIDATION ================= */
+
+abp-validation-summary {
+  display: block;
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+/* ================= BUTTONS ================= */
+
+button.btn {
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* =========================================
+   RETRIEVED BOOK LIST
+   ========================================= */
+
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-body {
+  padding: 14px 18px;
+  background-color: #ffffff;
+}
+
+/* Book Details */
+
+.card-body strong {
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.card-body .row {
+  align-items: center;
+}
+
+/* ================= NO BOOK MESSAGE ================= */
+
+.alert-warning {
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* ================= HEADING ================= */
+
+h5 {
+  font-weight: 600;
+  color: #343a40;
+}
+
+/* ================= DIVIDER ================= */
+
+hr {
+  border-top: 1px solid #dee2e6;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+  .col-form-label {
+    margin-bottom: 6px;
+  }
+
+  .form-control {
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .modal-body {
+    padding: 1rem;
+  }
+
+  .card-body .row > div {
+    margin-bottom: 8px;
+  }
+}
